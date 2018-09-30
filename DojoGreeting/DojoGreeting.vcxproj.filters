@@ -31,6 +31,9 @@
     <ClCompile Include="DojoGreeting_i.c">
       <Filter>生成されたファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Greeting.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -48,6 +51,9 @@
     <ClInclude Include="DojoGreeting_i.h">
       <Filter>生成されたファイル</Filter>
     </ClInclude>
+    <ClInclude Include="Greeting.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DojoGreeting.rc">
@@ -63,6 +69,9 @@
     </None>
     <None Include="DojoGreeting.def">
       <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="Greeting.rgs">
+      <Filter>リソース ファイル</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
