@@ -1,0 +1,18 @@
+// DojoGreeting.idl : DojoGreeting の IDL ソース
+//
+
+// このファイルは、タイプ ライブラリ (DojoGreeting.tlb) およびマーシャリング コードを
+// 作成するために MIDL ツールによって処理されます。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(9FC8DCBC-F451-4936-82D0-A04E7AC770DD),
+	version(1.0),
+]
+library DojoGreetingLib
+{
+	importlib("stdole2.tlb");
+};
+
